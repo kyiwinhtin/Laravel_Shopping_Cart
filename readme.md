@@ -24,11 +24,11 @@ You will see like this,Do not copy key from this image.
 
 Copy the Test Secret Key in Stripe Dashboard site.
 
-Paste into App\Http\Controllers\ProductController setApiKey in line 73.
+Paste into App\Http\Controllers\ProductController setApiKey('Paste the key here') in line 73.
 
 Copy the Test Publishable Key in Stripe Dashboard site again.
 
-Paste into resources\views\shop\checkout.blade.php  setPublishableKey in line 74.
+Paste into resources\views\shop\checkout.blade.php  setPublishableKey('Paste the key here') in line 74.
 
 Then we will fill form like this
 
